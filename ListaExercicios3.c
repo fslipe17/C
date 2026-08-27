@@ -234,9 +234,68 @@ int main(){
 
     // f) Ler cinco valores numéricos inteiros, identificar e apresentar o maior e o menor valores informados.
 
+    // int num1;
+    // int num2;
+    // int num3;
+    // int num4;
+    // int num5;
+    // int maior, menor;
 
+    // printf("Digite o primeiro valor: ");
+    // scanf("%d", &num1);
+
+    // printf("Digite o segundo valor: ");
+    // scanf("%d", &num2);
+
+    // printf("Digite o terceiro valor: ");
+    // scanf("%d", &num3);
+
+    // printf("Digite o quarto valor: ");
+    // scanf("%d", &num4);
+
+    // printf("Digite o quinto valor: ");
+    // scanf("%d", &num5);
+    
+    // maior = num1;
+    // menor = num1;
+    
+    // if(num2 > maior){
+    //     maior = num2;
+    // } else if(num3 > maior){
+    //     maior = num3;
+    // } else if(num4 > maior){
+    //     maior = num4;
+    // } else if(num5 > maior){
+    //     maior = num5;
+    // }
+    
+    // if(num2 < menor){
+    //     menor = num2;
+    // } else if(num3 < menor){
+    //     menor = num3;
+    // } else if(num4 < menor){
+    //     menor = num4;
+    // } else if(num5 < menor){
+    //     menor = num5;
+    // }
+    
+    // printf("\nTodos os numeros: %d, %d, %d, %d, %d\n", num1, num2, num3, num4, num5);
+
+    // printf("Maior valor: %d\n", maior);
+    // printf("Menor valor: %d\n", menor);
     
     // g) Ler um valor numérico inteiro, apresentar uma mensagem informando se o valor fornecido é par ou ímpar.
+
+    // int num;
+    
+    // printf("Digite um valor inteiro: ");
+    // scanf("%d", &num);
+    
+    // if(num % 2){
+    //     printf("Este numero é impar");
+    // } else if(num % 3){
+    //     printf("Este numero é par");
+    // }
 
 
     
