@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+                    //  ESTRUTURA CONDICIONAL E DE MULTIPLA ESCOLHA
+
+// Nome: Luiz Felipe da Silva
 
 int main(){
-    // exercicio 1
+    
+            // a) Efetuar leitura de dois valores numéricos inteiros e apresentar o resultado da diferença do maior valor pelo
+            //     menor valor
     int valor1;
     int valor2;
     int result;
@@ -21,7 +26,12 @@ int main(){
         printf("O resultado da diferença entre os numeros %d, %d é: %d", valor1, valor2, result);
     }
 
-    // exercicio 2
+    // b) Ler os valores de quatro notas escolares bimestrais de um aluno. Calcular a média aritmética desse aluno e
+        // apresentar a mensagem "Aprovado" se a média obtida for maior ou igual a 7; caso contrário, o programa deve
+        // solicitar a quinta nota (nota de exame) do aluno e calcular uma nova média aritmética entre a nota de exame e
+        // a primeira média aritmética. Se o valor da nova média for maior ou igual a sete, apresentar a mensagem
+        // "Aprovado em exame"; caso contrário, apresentar a mensagem "Reprovado". Informar também, após a
+        // apresentação das mensagens, o valor da média obtida pelo aluno
 
     // int valorNota1;
     // int valorNota2;
@@ -77,7 +87,12 @@ int main(){
     //     }
     // }
 
-    //exercicio 3
+    // c) Efetuar a leitura de três valores numéricos e processar o cálculo da equação completa de segundo grau,
+        // utilizando a fórmula de Bhaskara (considerar para a solução do problema todas as possíveis condições para
+        // delta: delta < 0 - não há solução real, delta > 0 - há duas soluções reais e diferentes e delta = 0 - há apenas
+        // uma solução real). Lembre-se de que é completa a equação de segundo grau que possui todos os coeficientes
+        // A, B e C diferentes de zero. O programa deve apresentar respostas para todas as condições estabelecidas para
+        // delta.
 
     //float a;
     // float b;
@@ -136,7 +151,7 @@ int main(){
     //     }
     // }
 
-    // exercicio 4
+    // d) Ler três valores inteiros e apresentar os valores lidos dispostos em ordem crescente.
 
     // int a;
     // int b;
@@ -170,7 +185,7 @@ int main(){
     //     }
     // }
 
-    // exercicio 5
+    // e) Fazer a leitura de 4 valores numéricos inteiros. Apresentar apenas os valores que sejam divisíveis por 2 e 3.
 
     // int a;
     // int b;
@@ -217,7 +232,54 @@ int main(){
     //     printf("%d ", d);
     // }
 
-    //exercicio 6
+    // f) Ler cinco valores numéricos inteiros, identificar e apresentar o maior e o menor valores informados.
+
+
+    
+    // g) Ler um valor numérico inteiro, apresentar uma mensagem informando se o valor fornecido é par ou ímpar.
+
+
+    
+    // h) Efetuar a leitura de um valor numérico inteiro que esteja na faixa de valores de 1 até 9. O programa deve
+    // apresentar a mensagem "O valor está na faixa permitida", caso o valor informado esteja entre 1 e 9. Se o valor
+    // estiver fora da faixa, o programa deve apresentar a mensagem "O valor está fora da faixa permitida".
+
+
+    
+    // i) Efetuar a leitura do sexo de uma pessoa e apresentar como saída uma das seguintes mensagens:
+    // "Excelentíssimo Senhor,", caso seja informado o sexo masculino, ou " Excelentíssimo Senhora", caso seja
+    // informado o sexo feminino. O programa deve, após a entrada do sexo, verificar primeiramente se o sexo
+    // fornecido é realmente válido, ou seja, se é igual a "M" ou a "F". Não sendo essa condição verdadeira, o programa
+    // deve apresentar a mensagem "Sexo informado inválido".
+
+
+    
+    // j) Efetuar a leitura de três valores inteiros desconhecidos, somar os valores fornecidos e apresentar o resultado
+    // somente se for maior ou igual a 100.
+
+
+    
+    // k) Escreva um programa utilizando estruturas de múltipla escolha que imprima na tela o mês de acordo com o
+    // número digitado pelo usuário. Exemplo: Se escolhido 2 irá imprimir Fevereiro.
+
+
+        
+    // l) Crie um algoritmo, utilizando estruturas de múltipla escolha, que imprima na tela o sexo (Masculino ou Feminino)
+    // de uma pessoa. Utilize caracteres (M ou F) como entrada.
+    // m) As taxas de natalidade e mortalidade representam indicadores de desenvolvimento humano que analisam tanto
+    // o aumento da população quanto o seu declínio. Permitem analisar a dinâmica de uma população, segundo as
+    // variáveis que as influenciam, como qualidade de vida, renda, nível de desenvolvimento do país ou unidade
+    // federativa em questão. (Escola Kids, 2020).
+    // Sabendo disto, faça um programa, utilizando estruturas de múltipla escolha, que solicite ao usuário qual cálculo
+    // de taxa ele quer realizar. Utilize as fórmulas abaixo para o cálculo, sendo:
+
+
+    
+    // n) Uma escola fornece 5% de desconto para pagamento da mensalidade em dia. A escola ainda fornece, além
+    // deste desconto, um desconto adicional de 50% na mensalidade para filhos de funcionários. Faça um programa
+    // que receba os dados de matrícula, valor da mensalidade e se o pagamento foi feito em dia ou não. Após isto
+    // calcule o programa deverá ler um código que identifique se o aluno é filho de funcionário (1) ou aluno comum
+    // (2) e com base nisso, utilize uma estrutura de múltipla escolha para calcular o valor a ser pago na mensalidade
 
     
     
