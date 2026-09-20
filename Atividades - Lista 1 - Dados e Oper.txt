@@ -1,0 +1,130 @@
+Atividades - Lista 1 - Dados e Operadores
+
+Nome: Luiz Felipe Da Silva - RGM: 48553522
+
+1) Escreva os possíveis tipos de dados em que se enquadram (inteiro, real, caractere, cadeia ou lógico). Se o dado se enquadrar em mais de um tipo, escreva todos eles.
+
+-456	Inteiro, Real
+Falso	Lógico
+"F"	Caractere
+"V"	Caractere
+"0,87"	Cadeia
+"0"	Caractere
+"- 9,12"	Cadeia
+"- 900"	        Cadeia
+"casa 8"	Cadeia
+"cinco"	        Cadeia
+Verdadeiro	Lógico
+0	Inteiro, Real
+1,56	Real
+-1,56	Real
+34	Inteiro, Real
+45,8976	Real
+-456	Inteiro, Real
+687	Inteiro, Real
+-687	Inteiro, Real
+-99,8	Real
+-0,01	Real
+1000	Inteiro, Real
+
+2) Assinale com um X os nomes inválidos para uma variável. Justifique o motivo de serem inválidos.
+
+(x)ENDEREÇO: variável não pode ter caractere especial "ç". 
+(x)21BRASIL: variável não pode começar com numero.
+(x)FONE$COM: variável não pode ter caractere especial "$".
+( )NAMEUSER
+(x)NOME_USUÁRIO: variável não pode ter caractere especial "Á".
+(x)NOME*USUÁRIO: variável não pode ter caractere especial "*", "Á".
+(x)END*A-6: variável não pode ter caractere especial "*".
+( )CIDADE3
+(x)#CABEC: variável não pode ter caractere especial "#".
+( )REAL
+(x)REAL$: variável não pode ter caractere especial "$".
+(x)SOBRE NOME: variável não pode ter espaços.
+
+3) Informe:
+
+Qual a primeira operação matemática a ser executada em cada um dos comandos abaixo.
+Qual é o resultado de R sabendo que A = 1, B = 2, C = 4 e D = 8.
+
+A) -1 : = (A=1) + (B=2) - (C=4)
+
+B) 1,125 : = (A=1) + (B=2) / (C=4) ^ 2
+
+C) 1,5 : = (A=1) + (B=2) / (C=4)
+
+D) 35 : = (A=1) + (B=2) + (C=4) * (D=8)
+
+E) 79 : = (A=1) + (B=2) + (D=8) ^ 2 + (C=4) * 3
+
+F) 4 : = (A=1) * (B=2) / (C=4) * (D=8)
+
+4) Analise os seguintes blocos de código dos algoritmos abaixo e diga o que será impresso em tela ao serem executados.
+
+1)
+
+X := 22
+Y := 11
+escreva(Y)
+Y := X
+escreva(X)
+
+Tela 
+{
+	1122
+}
+
+
+2)
+
+X := 1 
+Y := X + 1 
+X := Y + 1 
+Y := X + 1 
+escreva(X) 
+X := Y + 1 
+escreva(X)
+
+Tela
+{
+	35
+}
+
+3)
+
+X := (8/4) + (4/8) 
+Y := 8/4 + 4/8 
+Z := 112/64 + 12 
+escreva(X) 
+escreva(Y) 
+escreva(Z)
+
+Tela
+{
+	2.52.513.75
+}
+
+
+5) Determine o estado lógico das expressões, indicando se são VERDADEIRAS ou FALSAS.
+
+Considere os seguintes valores: X = 1; A = 3; B = 5; C = 8; D = 7.
+
+a) NAO(X > 3): Verdadeira
+
+b) (X < 1) E NAO(B > D): Falso
+
+c) NAO(D < 0) E (C > 5): Verdadeira
+
+d) NAO(X > 3) OU (C < 7): Verdadeira
+
+e) NAO((D < 0) OU (C > 5)): Falso
+
+f) (A > 0) OU (C > B): Verdadeira
+
+g) (X >= 2): Falso
+
+h) (X < 1) E (B >= D): Falso
+
+i) NAO(D > 3) OU NAO(B < 7): Falso
+
+j) (A > B) OU NAO(C > B): Falso
