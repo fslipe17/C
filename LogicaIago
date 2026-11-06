@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+	int vetOrdenado[] = {11, 21, 3, -4, 777, 8, 47, 668, -69, 0};
+	int i = 0;
+	int posicao = 0;
+
+    do{
+    	for(i = 0; i < 9; i++) {
+    		if(vetOrdenado[i] > vetOrdenado[i + 1]) {
+    		    posicao = vetOrdenado[i + 1];
+    		    vetOrdenado[i + 1] = vetOrdenado[i];
+    		    vetOrdenado[i] = posicao;
+    		    
+    			printf("\n%d | %d | %d | %d | %d | %d | %d | %d | %d | %d ", vetOrdenado[0], vetOrdenado[1], vetOrdenado[2], vetOrdenado[3], vetOrdenado[4], vetOrdenado[5], vetOrdenado[6], vetOrdenado[7], vetOrdenado[8], vetOrdenado[9], vetOrdenado[10]);
+    			getchar();
+          break;
+    		}
+    	}
+    }while(i = 20);
+
+	return 0;
+}
